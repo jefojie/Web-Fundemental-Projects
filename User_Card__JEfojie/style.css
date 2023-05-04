@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 600px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card-header {
+    height: 85px;
+    background-color: rgb(10, 161, 172);
+}
+
+.card-body {
+    padding: 30px;
+    border-bottom: 1.5px solid rgba(212, 205, 205, 0.753);
+    border-left: 1.5px solid rgba(212, 205, 205, 0.753);
+    border-right: 1.5px solid rgba(212, 205, 205, 0.753);
+
+}
+
+.card-body h1,
+h3,
+p {
+    padding: 3px;
+}
+
+
+
+.icon-small {
+    height: 20px;
+}
+
+.avi-pic {
+    height: 68px;
+    border-radius: 50%;
+    border: solid 2px rgb(202, 202, 202);
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+a {
+    color: rgb(22, 87, 114);
+}
