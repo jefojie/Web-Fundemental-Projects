@@ -1,0 +1,34 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.post1 {
+    width: 600px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #e3d4d4;
+    font-size: 1.2rem;
+}
+
+.top-line {
+    height:40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px
+}
+
+.like-btn {
+    background-color: rgb(238, 238, 135);
+    padding: 5px 10px;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
