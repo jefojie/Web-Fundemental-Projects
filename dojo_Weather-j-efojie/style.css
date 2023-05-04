@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:
+        #9fc5f8;
+    padding: 15px;
+    margin-top: 2px;
+}
+
+.navtitle {
+    color: white;
+}
+
+.cities {
+    display: flex;
+    align-items: center;
+}
+
+.cities a {
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    font-size: 22px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.city {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    margin-top: 20px;
+}
+
+.tempForm {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tempText {
+    margin-right: 5px;
+}
+
+#units {
+    border-radius: none;
+    border: 2px solid black;
+}
+
+.Days {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.day-card {
+    background-color:
+        #eeeeee;
+    height: 280px;
+    width: 120px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+
+}
+
+.dayTitle {
+    margin-left: 12px;
+}
+
+.WeatherImg {
+    width: 100px;
+    border-radius: 100%;
+    align-items: center;
+    margin-left: 12px;
+    margin-top: 10px;
+
+}
+
+.description {
+    margin-left: 28px;
+    margin-top: 20px;
+}
+
+
+.HighLow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.high {
+    color: #cf2a27;
+}
+
+.low {
+    color: #3a81e4;
+}
+
+.cookie {
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #eeeeee;
+    margin-top: 10px;
+}
+
+.btn {
+    border: 2px solid black;
+    color: black;
+    background-color: #9fc5f8;
+    width: 123px;
+    height: 25px;
+    margin-right: 10px;
+    box-shadow: 2px 3px black;
+}
