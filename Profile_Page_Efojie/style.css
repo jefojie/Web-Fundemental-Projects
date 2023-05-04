@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top {
+    background-color: rgb(45, 45, 45);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(45, 45, 45);
+    height: 60px;
+    color: white;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.nav-title {
+    color: aliceblue;
+    margin-left: 20px;
+
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    width: 50%;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    border: black;
+    background-color: #0cb3b3;
+    color: whitesmoke;
+    padding: 3px;
+    box-shadow: 4px 4px black;
+    width: 60px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col,
+.col-2 {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.user-card, .card {
+    width: 600px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card-header {
+    height: 85px;
+    background-color: rgb(10, 161, 172);
+}
+
+.card-body {
+    padding: 30px;
+    border-bottom: 1.5px solid rgba(212, 205, 205, 0.753);
+    border-left: 1.5px solid rgba(212, 205, 205, 0.753);
+    border-right: 1.5px solid rgba(212, 205, 205, 0.753);
+
+}
+
+.card-body h1,
+h3,
+p {
+    padding: 3px;
+}
+
+
+
+.icon-small {
+    height: 20px;
+}
+
+.avi-pic {
+    height: 68px;
+    border-radius: 50%;
+    border: solid 2px rgb(202, 202, 202);
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+a {
+    color: rgb(22, 87, 114);
+}
+
+.avatar-s {
+    border-radius: 50%;
+    height: 46px;
+    margin-right: 11px;
+}
+
+.header {
+    background-color: rgb(49, 49, 49);
+    padding: 11px;
+    color: white; 
+    font-size: 25px;
+    padding: 11px;
+    display: flex;
+    align-items: center;
+}
+
+.user-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    margin: 20px;
+}
+
+.start, .end {
+display: flex;
+font-size: 24px;
+align-items: center;
+}
+
+.card {
+    border-bottom: 1.5px solid rgba(212, 205, 205, 0.753);
+    border-left: 1.5px solid rgba(212, 205, 205, 0.753);
+    border-right: 1.5px solid rgba(212, 205, 205, 0.753);
+}
+
+.dates {
+    font-size: 21px;
+    color: #7778;
+}
+
+.connections {
+    background-color:lightgray;
+    color: black;
+    font-size: 19px;
+    border-radius: 9px;
+    height: 25px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
