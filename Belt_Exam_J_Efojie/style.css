@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+/* Start of the NavBar */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.leftNav {
+    display: flex;
+    align-items: center;
+
+}
+
+.leftNav,
+h1 {
+    padding: 12px;
+}
+
+.rightNav {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.leafLogo {
+    height: 35px;
+    background-color: #00d1b2;
+    border-radius: 13%;
+}
+
+.cartIcon {
+    height: 35px;
+    padding: 12px;
+}
+
+.searchBar {
+    width: 380px;
+    height: 20px;
+    border: 0.5px solid #474949;
+    background-color: #ebe9e9;
+    padding: 4px;
+    border-radius: 120px;
+    margin-right: 6px;
+}
+
+/* End of the NavBar */
+
+/* Start of the SubNav-Bar */
+.subNav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid black;
+    margin-bottom: 30px;
+
+}
+
+.subList {
+    text-decoration-style: none;
+}
+
+.subLink {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* End of the SubNav-Bar */
+
+.specialtiesTitle {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Start of Page Content */
+
+.discoverRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.card1 {
+    width: 210px;
+    height: 210px;
+    background-color: #00d1b2;
+    align-items: center;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+.col-1 {
+    display: flex;
+    width: 60%;
+}
+
+.col-2 {
+    align-items: center;
+    width: 40%;
+    display: inline-block;
+
+
+}
+
+.DiscoverHere {
+    display: flex;
+    margin-top: 90px;
+
+
+}
+
+.succulentsImg {
+    width: 230px;
+    height: 230px;
+}
+
+.discText {
+    margin-top: 10px;
+}
+
+.discText2 {
+    margin-left: 26%;
+}
+
+.discText,
+.discText2 {
+    text-align: center;
+    color: #fdfdfd;
+}
+
+.AloeImg {
+    width: 320px;
+    height: 130px;
+    margin-top: 20px;
+}
+
+.soothingAloe {
+    margin-top: 1px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #00d1b2;
+    display: flex;
+    height: 76px;
+    color: #fdfdfd;
+    text-align: center;
+}
+
+
+.arrow1 {
+    width: 20px;
+
+}
+
+.arrow2 {
+    width: 15px;
+    margin-right: 20px;
+
+}
+
+.TypeOfPlantsRow {
+    width: 100%;
+    background-color: #aae8d8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.SmallPlantImg {
+    width: 90px;
+    border-radius: 100%;
+}
+
+.plantDiv {
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+
+}
+
+/* /End of PageContent/ */
+
+
+/* cookies */
+
+.cookies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border: 2px solid black;
+
+}
+
+
+.cookies a {
+    color: rgb(30, 30, 241);
+}
+
+.AcceptBtn {
+    width: 180px;
+    height: 25px;
+    color: white;
+    background-color: #00d1b2;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+}

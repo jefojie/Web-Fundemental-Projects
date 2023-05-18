@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyBay</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Golos+Text&family=IBM+Plex+Sans&family=Roboto&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- CONTAINER START -->
+
+        <!-- Start of Nav Bar -->
+        <div class="nav-bar">
+            <div class="leftNav">
+                <img src="images/leaf.png" alt="leaf" class="leafLogo">
+                <h1>EasyBay</h1>
+            </div>
+            <form>
+                <input type="text" placeholder="Search for anything" class="searchBar">
+            </form>
+            <div class="rightNav">
+                <h3>Sign In</h3>
+                <img onclick="EmptyCart()" src="images/cart-dark.png" alt="cart" class="cartIcon">
+            </div>
+        </div>
+        <!-- End of Nav Bar -->
+
+        <!-- Start of SubNav Bar -->
+        <div class="subNav-bar">
+            <li class="subList"><a class="subLink" href="#">Aeronium</a></li>
+            <li class="subList"><a class="subLink" href="#">Andormischus</a></li>
+            <li class="subList"><a class="subLink" href="#">Agave</a></li>
+            <li class="subList"><a class="subLink" href="#">Aloe</a></li>
+            <li class="subList"><a class="subLink" href="#">Anacampseros</a></li>
+            <li class="subList"><a class="subLink" href="#">Aristaloe</a></li>
+            <li class="subList"><a class="subLink" href="#">More...</a></li>
+        </div>
+        <!-- End of SubNav Bar -->
+
+
+        <!-- Start of PageContent Title  -->
+        <div class="specialtiesTitle">
+            <h1>Your Source for Serious Succulent Specialties</h1>
+        </div>
+        <!-- End of PageContent Title -->
+
+        <!-- Start of PageContent  -->
+        <div class="pageContent">
+            <div class="discoverRow">
+                <div class="col-1">
+                    <div class="card1">
+                        <h3 class="discText">Discover succulent varieties one pot or rack at a time!</h3>
+                        <div class="DiscoverHere">
+                            <h3 class="discText2"> Discover <span> <img src="images/arrow-light.png" alt="arrow"
+                                        class="arrow1">
+                                </span></h3>
+                        </div>
+                    </div>
+                    <img src="images/succulents-1.jpg" id="img" onmouseover="changePic(this)"
+                        onmouseleave="changeBack(this)" alt="succulents-1" class="succulentsImg">
+
+                </div>
+                <div class="col-2">
+                    <img src="images/aloe-m.jpg" alt="Aloe-M" class="AloeImg">
+                    <div class="soothingAloe">
+                        <p class="soothingTxt">Soothing aloe</p>
+                        <img src="images/arrow-light.png" alt="arrow2" class="arrow2">
+                    </div>
+                </div>
+            </div>
+            <div class="TypeOfPlantsRow">
+                <div class="plantDiv">
+                    <img src="images/aeonium-s.jpg" alt="aeonium" class="SmallPlantImg">
+                    <p>Aeonium</p>
+                </div>
+                <div class="plantDiv">
+                    <img src="images/aloe-s.jpg" alt="aloe-s" class="SmallPlantImg">
+                    <p>Aloe</p>
+                </div>
+                <div class="plantDiv">
+                    <img src="images/cactus-s.jpg" alt="cactus" class="SmallPlantImg">
+                    <p>Cactus</p>
+                </div>
+                <div class="plantDiv">
+                    <img src="images/echeveria-s.jpg" alt="echeveria" class="SmallPlantImg">
+                    <p>Echeveria</p>
+                </div>
+                <div class="plantDiv">
+                    <img src="images/sedum-s.jpg" alt="Sedum" class="SmallPlantImg">
+                    <p>Sedum</p>
+                </div>
+                <div class="plantDiv">
+                    <img src="images/sempervivum-s.jpg" alt="sempervivum" class="SmallPlantImg">
+                    <p>Sempervivum</p>
+                </div>
+            </div>
+            <!-- End of PageContent  -->
+
+            <!-- Cookies Start  -->
+            <div class="cookies">
+                <img src="images/alert-dark.png" alt="alertIcon" class="alertIcon">
+                <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in
+                    our <a href="#">cookie policy</a></p>
+                <button onclick="accept()" class="AcceptBtn">I accept</button>
+            </div>
+            <!-- Cookies End  -->
+        </div>
+
+    </div>
+    <!-- CONTAINER END -->
+    <script src="script.js"></script>
+</body>
+
+</html>
